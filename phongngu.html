@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phòng ngủ</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="phongngu.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="nen">
+            <div class="manhinh">
+                
+                <div class="icon-exit">
+                    <i class="bx bx-chevrons-left"></i>
+                </div>
+                
+                <h1>Bedroom</h1>
+
+                <div class="thiet-bi">
+                    <div class="hang1">
+                        <div class="den">
+                            <p class="name1">Light</p>
+                            <!-- <i class='bx bxs-bulb' ></i> -->
+                            <img id="denId_01" src="light.png" alt="" height="55px"    width="65px">
+
+                            <div class="container">
+                                <div class="toggle" >
+                                    <div class="toggle-button" onclick="Animatedtoggle()"></div>
+                                </div>
+                                <div class="text">OFF</div>
+                                <div class="text-on">ON</div>
+                            </div>
+
+                        </div>
+        
+                        <div class="denngu">
+                            <p class="name2">Bed lamp</p>
+                            <img id="exId_01" src="lampof.png" alt="" height="55px"    width="65px">
+
+                            <!-- ---------------------------- -->
+                            <!-- <div id="div" class="light"></div> -->
+                            <!-- ---------------------------- -->
+
+                            <div class="container2">
+                                <div class="toggle2" >
+                                  <div class="toggle-button2" onclick="Animatedtoggle2()"></div>
+                                </div>
+                                <div class="text2">OFF</div>
+                                <div class="text-on2">ON</div>
+                            </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="hang2">
+                        <div class="curtain">
+                            <p class="name2">Curtain</p>
+                            <img id="cu1" src="curtainof.png" alt="" height="55px"    width="65px">
+
+                            <!-- ---------------------------- -->
+                            <!-- <div id="div" class="light"></div> -->
+                            <!-- ---------------------------- -->
+
+                            <div class="container3">
+                                <div class="toggle3" >
+                                  <div class="toggle-button3" onclick="Animatedtoggle3()"></div>
+                                </div>
+                                <div class="text3">OFF</div>
+                                <div class="text-on3">ON</div>
+                            </div>
+                            </div>
+        
+                        <div class="music">
+                            <p class="name4">Sau tất cả</p>
+                            <p class="name4-1">ERIK</p>
+                        
+                            <div class="icon-music">
+                                <i class='bx bx-skip-previous'></i>
+                                <i class='bx bx-pause' ></i>
+                                <i class='bx bx-skip-next' ></i>
+                            </div>
+                            <!-- ------------------lâu đài--------------------  -->
+                            <div class="js">
+                                <span class="js1"></span>
+                                <span class="js2"></span>
+                                <span class="js3"></span>
+                                <span class="js4"></span>
+                                <span class="js5"></span>
+                                <span class="js6"></span>
+                             </div>
+
+
+                            <!-- <i class='bx bx-play' ></i> -->
+                        </div>
+                    </div>
+
+                    <div class="doam">
+                        <p class="name5">Humidity</p>
+                        <div class="line5"></div>
+
+                        <i class='bx bxs-droplet drop-sm'></i>
+
+                        <div class="slider-container">
+
+                            <div class="value-container">
+                                <span id="demo">0</span>
+                            </div>
+                            <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+
+                        </div>
+
+                        <i class='bx bxs-droplet drop-bg'></i>
+
+                    </div>
+
+                    <div class="nhietdo">
+                       
+                        <p class="name6">Air conditioner</p>
+                        <div class="line6"></div>
+                        <img class="canhquat" src="./img/quat.png" alt="" height="55px"    width="55px">
+                        <div class="container6">
+                            <div class="toggle6">
+                                <div class="toggle-button6" onclick="Animatedtoggle6()">
+                                
+                                </div>
+                                <div class="text6">OFF</div>
+                                <div class="text-on6">ON</div>
+                            </div>
+                        </div>
+                        <div class="doC"></div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <i class='bx bx-home' ></i>
+                    <div><i class='bx bxs-cloud' ></i></i></div>
+                    <div><i class='bx bxs-bell' ></i></i></div>
+                    <div><i class='bx bx-menu'></i></div>
+                </div>
+
+            </div>
+        </div>
+        <script type="text/javascript" src="phongngu.js"></script>
+    </body>
+</html>

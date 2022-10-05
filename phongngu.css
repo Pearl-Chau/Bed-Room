@@ -1,0 +1,763 @@
+.nen
+{
+    margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 800px;
+	padding: 20px 0px 0px 40px;
+
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.manhinh
+{
+    background: #6B748A;
+	height: 670px;
+	border-radius: 2px;
+	padding: 10px 0px 70px 10px;
+    
+}
+
+.bx-chevrons-left
+{
+    color: rgb(203, 152, 0);
+    font-size: 60px;
+}
+
+h1
+{
+    width: 200px;
+    height: 35px;
+    color:rgb(255, 255, 255);
+    
+    padding-left: 150px;
+    margin: -15px 0px 15px 0px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+
+.den
+{
+    position: absolute;
+    width: 190px;
+    height: 130px;
+
+    margin: 5px 0px 0px 20px;
+
+    background:#E2AC6A;
+    border-radius: 8px;
+}
+.name1
+{
+    color: white;
+    font-size: 20px;
+    font-weight:lighter;
+    position:absolute;
+    left: 20px;
+    top: -5px;
+}
+#denId_01
+{
+    position: absolute;
+    left: 15px;
+    top: 45px;
+    font-size: 70px;
+    color: #FFD700;
+}
+
+
+/* --------------------------------- */
+
+.denngu
+{
+    position: absolute;
+    width: 190px;
+    height: 130px;
+
+    margin: 5px 0px 0px 230px;
+
+    background:#927451;
+    border-radius: 8px;
+}
+.name2
+{
+    color: white;
+    font-size: 20px;
+    font-weight:lighter;
+    position:absolute;
+    left: 20px;
+    top: -5px;
+}
+#exId_01
+{
+    position: absolute;
+    left: 20px;
+    top: 53px;
+}
+
+/* .light{
+    width: 50%;
+    height: 80vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    background-image: radial-gradient(circle, #ffffff, #d19a00, #c04e24, #d19a00,#000007,#000007,#000007);
+    border-radius: 50%;
+    clip-path: polygon(45% 33%, 55% 33%, 100% 100%, 0% 100%);
+    transition: 0.5s;
+} */
+
+/* ------------------------------------ */
+
+
+.curtain
+{
+    position: absolute;
+    width: 190px;
+    height: 130px;
+    margin: 157px 0px 20px 20px;
+
+    background: #927451;
+    border-radius: 8px;
+}
+.name2
+{
+    color: white;
+    font-size: 20px;
+    font-weight:lighter;
+    position:absolute;
+    left: 20px;
+    top: -5px;
+}
+#cu1
+{
+    position: absolute;
+    left: 25px;
+    top: 45px;
+}
+
+/* ------------------lâu đài-------------------- */
+.js{
+    position: relative;
+    width: 95px;
+    display: flex;
+    height: 50px;
+    margin: 0 90px;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .js1 , .js2 , .js3 ,.js4 , .js5,.js6  {
+    clip-path: polygon(50% 0%, 100% 20%, 100% 100%, 50% 100%, 0 100%, 0 20%);
+    width: 5px;
+    background: linear-gradient( #6b8dff 25%, #fff 25% );
+    margin:0 2.5px;
+    animation: sid 2s linear infinite;
+    
+  }
+  @keyframes sid {
+    0%{
+    
+      height: 0px;
+    }
+    50%{
+      
+      height: 50px;
+    }
+  
+    100%{
+      height: 00px;
+    }
+  }
+  .js1{ 
+    animation-delay:0s; 
+  }
+  .js2{
+    animation-delay:0.3s; 
+  }
+  .js3{
+    animation-delay:0.6s; 
+  }
+  .js4{
+    animation-delay:0.9s; 
+  }
+  .js5{
+    animation-delay:1.2s; 
+  }
+  .js6{
+    animation-delay:1.5s; 
+  }
+  
+/* -------------------------------------- */
+.music
+{
+    position: absolute;
+    width: 190px;
+    height: 130px;
+    margin: 157px 0px 20px 230px;
+
+    background:#82A284;
+    border-radius: 8px;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+.name4
+{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    position:absolute;
+    left: 15px;
+    top: -5px;
+}
+.name4-1
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position:absolute;
+    left: 35px;
+    top: 19px;
+}
+.icon-music
+{
+    width: 190px;
+    height: 60px;
+    position:absolute;
+    top: 65px;
+    left: 9px;
+}
+.bx-skip-previous
+{
+    font-size: 55px;
+}
+.bx-pause
+{
+    font-size: 55px;
+}
+.bx-skip-next
+{
+    font-size: 55px;
+}
+
+
+
+.doam
+{
+    width: 400px;
+    height: 136px;
+    background-color: #15133C;
+
+    position: absolute;
+    margin: 310px 0px 20px 20px;
+    /* border-radius: 8px; */
+    border-radius: 45px 10px;
+
+
+}
+.line5
+{
+    width: 400px;
+    height: 2px;
+
+    background-color: #6B748A;
+    margin-top: 15px;
+    border-radius: 15px 15px 0px 0px;
+}
+.name5
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 24px;
+    margin: 15px 0px 0px 15px;
+}
+
+.bxs-droplet
+{
+    height: 40px;
+    width: 40px;
+    /* color: linear-gradient(rgb(0, 0, 0), rgb(0, 149, 255) ); */
+    color:rgb(0, 149, 255);
+}
+
+.drop-sm
+{
+    font-size: 22px;
+    margin: 30px 0px 0px 25px;
+}
+.drop-bg
+{
+    font-size: 40px;
+    /* margin: -100px 0px 30px 360px; */
+    position:absolute;
+    right: 15px;
+    top: 75px;
+}
+
+
+
+
+/* -------------------------------------------------------------------- */
+.slider-container
+{
+    width: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: -115px;
+    margin-left: 38px;
+    display:flex;
+    
+}
+
+.value-container
+{
+    margin-bottom: 42px;
+}
+
+#demo
+{
+    color: rgb(163, 151, 212);
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.slider 
+{
+    width: 79%;
+    background: linear-gradient(to right, #6b8dff 0%, #ff2a5f 0%, #fff 0%, #fff 100% );
+    height: 12px;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    border-radius: 25px;
+    box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+    -webkit-box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+}
+
+.slider input::-moz-range-progress
+{
+    width: 60%;
+    background: linear-gradient(to right, #6b8dff 0%, #ff2a5f 0%, #fff 0%, #fff 100% );
+    height: 20px;
+}
+
+.slider::-webkit-slider-thumb
+{
+    cursor: pointer;
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #ff2a5f;
+    border-radius: 50%;
+    box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+    -webkit-box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+}
+
+.slider::-webkit-slider-thumb:active
+{
+    height: 26px;
+    width: 26px;
+}
+/* -------------------------------------------------------------------- */
+.slider-container2
+{
+    width: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: -50px;
+    margin-left: 38px;
+    display:flex;
+    
+}
+
+.value-container2
+{
+    margin-bottom: 42px;
+}
+
+#demo2
+{
+    color: rgb(163, 151, 212);
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.slider2
+{
+    width: 79%;
+    background: linear-gradient(to right, #6b8dff 0%, #ff2a5f 0%, #fff 0%, #fff 100% );
+    height: 12px;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    border-radius: 25px;
+    box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+    -webkit-box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+}
+
+.slider22 input::-moz-range-progress
+{
+    width: 60%;
+    background: linear-gradient(to right, #6b8dff 0%, #ff2a5f 0%, #fff 0%, #fff 100% );
+    height: 20px;
+}
+
+.slider2::-webkit-slider-thumb
+{
+    cursor: pointer;
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #ff2a5f;
+    border-radius: 50%;
+    box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+    -webkit-box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgb(116, 114, 114, 0.75);
+}
+
+.slider2::-webkit-slider-thumb:active
+{
+    height: 26px;
+    width: 26px;
+}
+/* ------------------------------------ */
+.nhietdo
+{
+    width: 400px;
+    height: 136px;
+    background-color:#82A284;
+
+    position: absolute;
+    margin: 470px 0px 20px 20px;
+
+    border-radius: 10px 45px;
+}
+.line6
+{
+    width: 400px;
+    height: 2px;
+
+    background-color: #6B748A;
+    margin-top: 15px;
+    border-radius: 15px 15px 0px 0px;
+}
+.name6
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 24px;
+    margin: 15px 0px 0px 15px;
+}
+.canhquat
+{
+    width: 55px;
+    height: 55px;
+    margin: 5px 0px 0px 25px;
+}
+.doC
+{
+    font-size: 32px;
+    color:rgb(255, 255, 255);
+    position:absolute;
+    right: 45px;
+    top: 75px;
+    font-weight:lighter;
+}
+
+
+/* -----------------BOTTOM------------------------------ */
+
+.bottom
+{
+	background-color: #694E4E;
+    margin-top: -1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.bx-home
+{
+    font-size: 40px;
+    color: orange;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.bottom > div 
+{
+    width: 70px;
+    margin: 15px;
+    text-align: center;
+    line-height: 35px;
+
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/* ----------------------------------------------------- */
+.container{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 130px;
+    transform:translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .toggle{ 
+    position: relative;
+    width: 57px;
+    height:28px;
+    -webkit-appearance: none;
+    background: #927451;
+    outline: none;
+    border-radius: 20px;
+    /* box-shadow: inset 0 0 5px rgba(0,0,0.2); */
+    transition: .5s;
+
+}
+.container .toggle .toggle-button{
+    position:absolute;
+    top:0;
+    left:0;
+    margin: 2px 0px 0px 1.5px;
+    width: 24px;
+    height:24px;
+    background: #EFEEE9;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+
+
+    /* box-shadow: 0 0 3px 0 rgba(0,0,0.2); */
+}
+.container .toggle.active{
+    background: linear-gradient(90deg, #355c7d, #6c5b7b, #c06c84);
+}
+.container .toggle.active .toggle-button{
+  left: 30px;
+}
+.container .text{
+  position:absolute ;
+  padding-left: 23px;
+  font-weight: lighter;
+  font-size: 10px;
+  color: #EFEEE9;
+}
+
+.text-on
+{
+    position:absolute ;
+    padding-right: 30px;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #EFEEE9;
+}
+
+/* ---------------------2------------------------ */
+
+.container2{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 130px;
+    transform:translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .toggle2{ 
+    position: relative;
+    width: 57px;
+    height:28px;
+    -webkit-appearance: none;
+    background: #927451;
+    outline: none;
+    border-radius: 20px;
+    /* box-shadow: inset 0 0 5px rgba(0,0,0.2); */
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    transition: .5s;
+
+}
+.container2 .toggle2 .toggle-button2{
+    position:absolute;
+    top:0;
+    left:0;
+    margin: 2px 0px 0px 1.5px;
+    width:24px;
+    height:24px;
+    background: #EFEEE9;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+
+
+    box-shadow: 0 0 3px 0 rgba(0,0,0.2);
+}
+.container2 .toggle2.active2{
+    background: linear-gradient(90deg, #355c7d, #6c5b7b, #c06c84);
+}
+.container2 .toggle2.active2 .toggle-button2{
+  left: 30px;
+}
+.container2 .text2{
+    position:absolute ;
+    padding-left: 25px;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #EFEEE9;
+}
+.text-on2
+{
+    position:absolute ;
+    padding-right: 25px;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #EFEEE9;
+}
+
+/* ---------------------------3--------------------- */
+
+.container3{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 130px;
+    transform:translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 .toggle3{ 
+    position: relative;
+    width: 57px;
+    height:28px;
+    -webkit-appearance: none;
+    background: #927451;
+    outline: none;
+    border-radius: 20px;
+    /* box-shadow: inset 0 0 5px rgba(0,0,0.2); */
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    transition: .5s;
+
+}
+.container3 .toggle3 .toggle-button3{
+    position:absolute;
+    top:0;
+    left:0;
+    margin: 2px 0px 0px 1.5px;
+    width:24px;
+    height:24px;
+    background: #EFEEE9;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+
+
+    box-shadow: 0 0 3px 0 rgba(0,0,0.2);
+}
+.container3 .toggle3.active3{
+    background: linear-gradient(90deg, #355c7d, #6c5b7b, #c06c84);
+}
+.container3 .toggle3.active3 .toggle-button3{
+  left: 30px;
+}
+.container3 .text3{
+    position:absolute ;
+    padding-left: 25px;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #EFEEE9;
+}
+
+.text-on3
+{
+    position:absolute ;
+    padding-right: 25px;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #EFEEE9;
+}
+
+/* ------------------------------6-------------------------------- */
+.container6{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 140px;
+    transform:translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container6 .toggle6{ 
+    position: relative;
+    width: 57px;
+    height:28px;
+    -webkit-appearance: none;
+    background: #446A46;
+    outline: none;
+    border-radius: 20px;
+    /* box-shadow: inset 0 0 5px rgba(0,0,0.2); */
+}
+
+.container6 .toggle6 .toggle-button6{
+    position:absolute;
+    top:0;
+    left:0;
+    margin: 2px 0px 0px 1.5px;
+    width:24px;
+    height:24px;
+    background: #EFEEE9;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0 0 3px 0 rgba(0,0,0.2);
+}
+.container6 .toggle6.active6{
+    background: #60e90a;
+}
+.container6 .toggle6.active6 .toggle-button6{
+    left: 30px;
+}
+.container6 .text6{
+    position:absolute;
+    /* padding-left: 25px; */
+    right: 5px;
+    top: 9px;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #EFEEE9;
+}
+.text-on6
+{
+    position:absolute ;
+    /* padding-right: 20px; */
+    left: 7px;
+    top: 9px;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #EFEEE9;
+}
